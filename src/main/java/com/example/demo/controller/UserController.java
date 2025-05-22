@@ -14,4 +14,6 @@ public class UserController {
     public ResponseEntity<String> createUser(@Valid @RequestBody UserCreationRequest request) {
         return ResponseEntity.ok("User created successfully!");
     }
+    // create conflict code 
+    // commit 2 to con flict code
 }
