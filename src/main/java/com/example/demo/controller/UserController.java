@@ -16,4 +16,9 @@ public class UserController {
     }
     // abc abc 
     // thay doi code de conflict
+
+    // commit 2
+    //  public ResponseEntity<String> createUser(@Valid @RequestBody UserCreationRequest request) {
+    //     return ResponseEntity.ok("User created successfully!");
+    // }
 }
